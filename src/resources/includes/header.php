@@ -1,6 +1,6 @@
 <header class="main-header">
-  <div class="container">
-    <a href="#" class="main-heder__logo">РЕГИДРОН БИО</a>
+  <div class="main-header__container container">
+    <a href="#" class="main-header__logo">РЕГИДРОН БИО</a>
     <nav class="nav">
       <ul class="nav__list">
         <?php foreach($headerMenuItems as $headerMenuItem) : ?>

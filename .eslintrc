@@ -307,10 +307,7 @@
 		"id-match": "off",
 		"indent": [
 			"error",
-			"tab",
-			{
-				"SwitchCase": 1
-			}
+			2
 		],
 		"jsx-quotes": "off",
 		"key-spacing": [
@@ -345,7 +342,7 @@
 			"error",
 			{
 				"code": 120,
-				"tabWidth": 4,
+				"tabWidth": 2,
 				"ignoreComments": false,
 				"ignoreTrailingComments": true,
 				"ignoreUrls": true,
