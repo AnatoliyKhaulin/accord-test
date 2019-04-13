@@ -14,15 +14,25 @@
   }
 
   &__item {
+    margin: 0 35px;
+
     &:last-child {
       font-weight: 900;
     }
   }
 
+  &__border-bottom {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: auto;
+    height: 22px;
+    background-color: #fff;
+  }
+
   &__link {
     position: relative;
     display: inline-block;
-    margin: 0 35px;
     padding: 15px 0;
     padding-bottom: 50px;
     font-weight: 700;
@@ -39,12 +49,19 @@
     padding-right: 0;
     width: calc(100% - (410 / 1750 * 100vw));
 
-    &__link {
+    &__item {
       margin: 0 35 / 1750 * 100vw;
+    }
+
+    &__link {
       padding: 15 / 1750 * 100vw 0;
       padding-bottom: 50 / 1750 * 100vw;
       font-size: 27 / 1750 * 100vw;
       line-height: 29.07 / 1750 * 100vw;
+    }
+
+    &__border-bottom {
+      height: 22 / 1750 * 100vw;
     }
   }
 }
