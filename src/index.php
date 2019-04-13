@@ -15,7 +15,7 @@
 		<div class="promo__container container">
 			<div class="promo-picture">
 				<div class="good-image">
-					<img src="<?= $imgGood?>" srcset="<?= $imgX2Good?>" alt="<?= $altGood?>">
+					<img data-src="<?= $imgGood?>" data-srcset="<?= $imgX2Good?>" alt="<?= $altGood?>">
 				</div>
 
 				<footer class="promo-picture__footer">
