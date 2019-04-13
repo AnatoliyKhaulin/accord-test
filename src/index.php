@@ -29,11 +29,11 @@
 				<ul class="promo-description__list">
 					<li class="promo-description__list-item">
 						<i class="sprite-ic_clock"></i>
-						<span>сокращает продолжительность и выраженность диареи</span>
+						<span><?= $promoDescriptionFirst?></span>
 					</li>
 					<li class="promo-description__list-item">
 						<i class="sprite-ic_drop"></i>
-						<span>восстанавливает водно-солевой баланс</span>
+						<span><?= $promoDescriptionSecond?></span>
 					</li>
 				</ul>
 			</article>
