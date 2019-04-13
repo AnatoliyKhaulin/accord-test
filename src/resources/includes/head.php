@@ -1,9 +1,9 @@
 <head>
   <!--[if IE 9]><html class="ie"><![endif]-->
   <meta charset="utf-8" />
-  <title><?php echo $pageTitle ?></title>
-  <meta name="keywords" content="">
-  <meta name="description" content="">
+  <title><?= $pageTitle ?></title>
+  <meta name="keywords" content="<?= $pageKeywords ?>">
+  <meta name="description" content="<?= $pageDescription ?>">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#ffffff">

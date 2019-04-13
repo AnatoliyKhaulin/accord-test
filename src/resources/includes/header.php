@@ -6,12 +6,12 @@
         <!-- <li class="nav__border-bottom"></li> -->
         <?php foreach($headerMenuItems as $headerMenuItem) : ?>
           <li class="nav__item">
-            <a href="#" class="nav__link js-nav-link"><?php echo $headerMenuItem; ?></a>
+            <a href="#" class="nav__link js-nav-link" aria-label="<?= $headerMenuItem; ?>"><?= $headerMenuItem; ?></a>
           </li>
         <?php endforeach; ?>
       </ul>
     </nav>
-    <button class="main-header__burger-btn js-burger-btn">
+    <button class="main-header__burger-btn js-burger-btn" aria-label="Кнопка меню">
       <span class="main-header__burger">
         <span class="main-header__burger-topper"></span>
         <span class="main-header__burger-bottom"></span>
