@@ -18,14 +18,6 @@
 					<img src="<?= $imgGood?>" srcset="<?= $imgX2Good?>" alt="<?= $altGood?>">
 				</div>
 
-				<div class="plants-image">
-					<img src="<?= $imgPlantsFirst?>" srcset="<?= $imgX2PlantsFirst?>" alt="<?= $altPlantsFirst?>">
-				</div>
-
-				<div class="plants-image-1">
-					<img src="<?= $imgPlantsSecond?>" srcset="<?= $imgX2PlantsSecond?>" alt="<?= $altPlantsSecond?>">
-				</div>
-
 				<footer class="promo-picture__footer">
 					<?= $promoPictureFooter?>
 				</footer>
