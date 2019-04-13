@@ -1,9 +1,9 @@
 <header class="main-header">
   <div class="main-header__container container">
     <a href="#" class="main-header__logo">РЕГИДРОН БИО</a>
+
     <nav class="nav js-main-header-nav">
       <ul class="nav__list">
-        <!-- <li class="nav__border-bottom"></li> -->
         <?php foreach($headerMenuItems as $headerMenuItem) : ?>
           <li class="nav__item">
             <a href="#" class="nav__link js-nav-link" aria-label="<?= $headerMenuItem; ?>"><?= $headerMenuItem; ?></a>
@@ -11,6 +11,7 @@
         <?php endforeach; ?>
       </ul>
     </nav>
+
     <button class="main-header__burger-btn js-burger-btn" aria-label="Кнопка меню">
       <span class="main-header__burger">
         <span class="main-header__burger-topper"></span>

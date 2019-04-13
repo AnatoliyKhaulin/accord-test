@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#ffffff">
   <meta name="msapplication-TileColor" content="#ffffff">
-  <!-- <meta name="msapplication-TileImage" content="<?php echo $defaultPath;?>/favicon/ms-icon-144x144.png">
+  <meta name="msapplication-TileImage" content="<?php echo $defaultPath;?>/favicon/ms-icon-144x144.png">
   <link rel="apple-touch-icon" sizes="57x57" href="<?php echo $defaultPath;?>/favicon/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="<?php echo $defaultPath;?>/favicon/apple-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="<?php echo $defaultPath;?>/favicon/apple-icon-72x72.png">
@@ -21,6 +21,6 @@
   <link rel="icon" type="image/png" sizes="192x192"  href="<?php echo $defaultPath;?>/favicon/android-icon-192x192.png">
   <link rel="icon" type="image/png" sizes="32x32" href="<?php echo $defaultPath;?>/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="96x96" href="<?php echo $defaultPath;?>/favicon/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="<?php echo $defaultPath;?>/favicon/favicon-16x16.png"> -->
+  <link rel="icon" type="image/png" sizes="16x16" href="<?php echo $defaultPath;?>/favicon/favicon-16x16.png">
   <link rel="stylesheet" href="<?php echo $defaultPath;?>css/main.css">
 </head>
