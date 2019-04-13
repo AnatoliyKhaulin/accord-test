@@ -1,4 +1,45 @@
-$sprites: ();
+$sprites: (
+	"ic_clock": (
+		normal: (
+			x: 103,
+			y: 0,
+			width: 116,
+			height: 116,
+			image: "sprites.png",
+			total_width: 219,
+			total_height: 142,
+		),
+		retina: (
+			x: 206,
+			y: 0,
+			width: 232,
+			height: 232,
+			image: "sprites@2x.png",
+			total_width: 438,
+			total_height: 284,
+		),
+	),
+	"ic_drop": (
+		normal: (
+			x: 0,
+			y: 0,
+			width: 101,
+			height: 142,
+			image: "sprites.png",
+			total_width: 219,
+			total_height: 142,
+		),
+		retina: (
+			x: 0,
+			y: 0,
+			width: 202,
+			height: 284,
+			image: "sprites@2x.png",
+			total_width: 438,
+			total_height: 284,
+		),
+	),
+);
 
 @each $name in map-keys($sprites) {
 	.sprite-#{$name} {
