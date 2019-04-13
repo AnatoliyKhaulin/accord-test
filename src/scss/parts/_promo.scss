@@ -339,3 +339,22 @@
     }
   }
 }
+
+@media (min-width: 769px) {
+  .promo-picture {
+    .good-image {
+      @include fadeInLeft;
+    }
+  }
+
+  .promo-description {
+    &__list {
+      @include fadeInRight;
+    }
+
+    &__subtitle,
+    &__title {
+      @include fadeInDown;
+    }
+  }
+}
